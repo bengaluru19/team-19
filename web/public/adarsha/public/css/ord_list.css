@@ -1,0 +1,30 @@
+.body
+{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 20%;
+}
+.row
+{
+        
+    text-align: center;
+    margin-left:10%; 
+    margin-top: 5%;
+    
+}
+.ord_in
+{
+    width: 27%;
+    background-color:grey;
+    border: 1px solid black;
+    border-radius: 0px;
+   
+    padding-top: 2%;
+    height: 130px;
+}
+
+
+.mid
+{
+    visibility: hidden;
+}

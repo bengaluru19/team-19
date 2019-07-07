@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    
+        <script src="https://www.gstatic.com/firebasejs/6.2.4/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/6.2.4/firebase-firestore.js"></script>
+    </head>
+
+    <body>
+        <script>
+              firebase.initializeApp({
+    apiKey: '',
+    authDomain: "",
+    projectId: "team19-8586d",
+  });
+  var db = firebase.firestore();
+  query = db.collection('team19_orders');
+var x = 1;
+  // Add a new document in collection "cities"
+db.collection("team19_orders").doc(x.toString()).set({
+    name: "Los Angeles",
+    state: "CA",
+    country: "USA"
+})
+.then(function() {
+    console.log("Document successfully written!");
+})
+.catch(function(error) {
+    console.error("Error writing document: ", error);
+});
+        </script>
+    </body>
+</html>

@@ -1,0 +1,21 @@
+.ord
+{
+    border: 0px solid red;
+    border-radius: 20px;
+    text-align: center;
+    padding-top: 5%;
+    background-color: aqua;
+}
+
+.ord_l
+{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 1%;
+    margin-top: 1%;
+    height: 130px;
+}
+.mid
+{
+    visibility: hidden;
+}
