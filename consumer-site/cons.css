@@ -1,11 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
 
-body{
-	background-image: url('img.jpg');
-	font-family: 'Open Sans', sans-serif;
-	background-size: cover;
-	font-size: 20px;
-}
+
 button{
     width: 90px;
     height: 50px;
