@@ -9,7 +9,7 @@ var serviceAccount = require("./google.json");
 
 admin.initializeApp({
   credential: admin.credential.cert(serviceAccount),
-  databaseURL: "https://team19-8586d.firebaseio.com"
+  databaseURL: "xxxxxxx"
 });
 
 var db = admin.firestore();
@@ -35,7 +35,7 @@ var db = admin.firestore();
 //   console.log(`Encountered error: ${err}`);
 // });
 
-query = db.collection('team19_item');
+query = db.collection('XXXXX');
 
 let observer = query.onSnapshot(querySnapshot => {
   querySnapshot.docChanges().forEach(change => {
