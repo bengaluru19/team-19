@@ -1,12 +1,1 @@
-{
-  "type": "service_account",
-  "project_id": "team19-8586d",
-  "private_key_id": "e893709cb457bfbb56ebca76acc82f4e96129daf",
-  "private_key": "",
-  "client_email": "",
-  "client_id": "111986391897420891447",
-  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
-  "token_uri": "https://oauth2.googleapis.com/token",
-  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
-  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-bibbz%40team19-8586d.iam.gserviceaccount.com"
-}
+get from firebase
