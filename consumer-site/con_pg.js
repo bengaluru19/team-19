@@ -8,13 +8,13 @@ var obj_it={}
 var ido=0;
 firebase.initializeApp({
 
-    apiKey: '',
-    authDomain: "",
-  projectId: "team19-8586d",
+    apiKey: 'XXXXXXXXXXXXXXXXXXXXXXXXX',
+    authDomain: "XXXXXXXXXXXXXXXXXXXXX",
+  projectId: "XXXXXXXXXXXXXXXXXXXX",
     });
 	  var db=firebase.firestore();
 
-	  let venref = db.collection('team19_vendor');
+	  let venref = db.collection('XXXXXXXXXXXXXXXXXXXXXXXXX');
 	  let ven = venref.get()
   .then(snapshot => {
     snapshot.forEach(doc => {
@@ -75,7 +75,7 @@ var a1=doc.data()["catalog"]
 //getting item list
 var or_id=0;
 for(var i=0;i<a1.length;i++){
-var docRef = db.collection("team19_item").doc(a1[i].toString());
+var docRef = db.collection("XXXXXXXXXXXXXX").doc(a1[i].toString());
 var a2;
 
 docRef.get().then(function(doc) {
@@ -113,7 +113,7 @@ bt.setAttribute("type","submit")
 
 bt.addEventListener('click',function()
 {
-	var docRef = db.collection("team19_item").doc(curr_item_id.toString());
+	var docRef = db.collection("XXXXXXXXXXX").doc(curr_item_id.toString());
 
 docRef.get().then(function(doc) {
     if (doc.exists) {
@@ -128,7 +128,7 @@ docRef.get().then(function(doc) {
 });
 var zz=doc.data()
 
-	db.collection("team19_orders").doc(or_id.toString()).set({
+	db.collection("XXXXXXXXXXXXX").doc(or_id.toString()).set({
     pname: zz['name'],
     qty: 1 ,
 	accept: 0,
