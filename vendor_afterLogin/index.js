@@ -23,14 +23,14 @@
 
   <script type="text/javascript">
   firebase.initializeApp({
-  apiKey: '',
-  authDomain: "",
-projectId: "team19-8586d",
+  apiKey: 'XXXXXXXXXXXXXXXXXXX',
+  authDomain: "XXXXXXXXXXXXXXXXXX",
+projectId: "XXXXXXXXXXXXXXXX",
   });
   var db=firebase.firestore();
 
 
-query = db.collection('team19_orders');
+query = db.collection('XXXXXXXXXXXXXXXXXXXX');
 
 let observer = query.onSnapshot(querySnapshot => {
  querySnapshot.docChanges().forEach(change => {
