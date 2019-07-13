@@ -15,11 +15,11 @@
  */
 
 var firebaseConfig = {
-  apiKey: "",
-  authDomain: "",
-  projectId: "team19-8586d",
-  storageBucket: "team19-8586d.appspot.com",
-  appId: "1:338334909812:web:2bd98149c08bc0f6"
+  apiKey: "XXXXXXXXXXXXXXXXX",
+  authDomain: "XXXXXXXXXXXXXXXXXX",
+  projectId: "XXXXXXXXXXXXX",
+  storageBucket: "XXXXXXXXXXXXXXX",
+  appId: "XXXXXXXXXXXXXXXXXXXX"
 };
 // Initialize Firebase
 firebase.initializeApp(firebaseConfig);
