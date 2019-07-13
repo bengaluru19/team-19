@@ -3,7 +3,7 @@ var firebaseui = require('firebaseui');
 
 admin.initializeApp({
   credential: admin.credential.cert(serviceAccount),
-  databaseURL: "https://team19-8586d.firebaseio.com"
+  databaseURL: "XXXXXXXXXXXXXXX"
 });
 
 var db = admin.firestore();
